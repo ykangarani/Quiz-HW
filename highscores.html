@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="highscores.css">
 </head>
 <body>
-   <div class="container">
-       <div id="highScores" class="flex-center flex-column">
-           <h1 id="finalScore">Leaderboard</h1>
-           <ul id="highScoreList"></ul>
-           <a href="/" class="classbtn">Go Home</a>
-       </div>
-   </div>
-   <scipt src="highscores.js"></scipt>
+ 
+    <div id="wrapper">
+
+        <div id="currentTime"></div>
+
+        <div id="questionsDiv">
+            <h1>Highscores</h1>
+            <ul id="highScore"></ul>
+
+            <button id="goBack">Go Back</button>
+            <button id="clear" value="reset">Clear Highscore</button>
+        </div>
+    </div>
+    <script src="./highscores.js"></script>
 </body>
 </html>
