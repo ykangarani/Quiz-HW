@@ -31,5 +31,5 @@ saveHighScore = e => {
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
 
-    window.location.assign('./')
+    window.location.reload('./highscores.html')
 }
